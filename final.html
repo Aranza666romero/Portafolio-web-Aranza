@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="aranza romero">
+    <meta name="description" content="Portafolio de accesorios aranza romero">
+    <meta name="keywords" content="anillos, pulseras, aretes, collares">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Accesorios Triangle</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/6e/dc/75/6edc75843dbae8cee1386b6ee36023d3.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="final.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="https://i.pinimg.com/originals/6e/dc/75/6edc75843dbae8cee1386b6ee36023d3.png" width="50" alt="Logo de la empresa">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="cupones.html">Cupones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ofertas.html">Ofertas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="https://i.pinimg.com/564x/69/65/72/696572d4fb900aecce7cefb717fc5290.jpg" alt="Foto empresa">
+        <h1>¡Bienvenidos a Triangle!</h1>
+        <!--<h2>mision y vision</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="https://images.vexels.com/media/users/3/151741/isolated/preview/e904ce9399cafecb4f357ec8bd402ddc-icono-de-piedra-preciosa-diamante-negro.png" width="60" height="80" alt="diamante">
+      </div>
+    </section>
+
+    <!-- Sobre triangle -->
+    <section id="sobre-triangle" class="sobre-triangle seccion-oscura">
+      <div class="contenedor">
+        <section class="align-center">
+        <h2 class="seccion-titulo">Conoce a Triangle</h2>
+        <p class="seccion-texto">¿Qué es Triangle?<br>
+        Triangle es una tienda online que te permite iniciar tu negocio con distintas joyas o bien para consumo personal.<br>
+        ¿Qué ofrecemos?<br>
+        Triangle te ofrece excelente calidad en sus productos a un precio accesible.</p>
+        </section>
+      </div>
+    </section>
+
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Negocio -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-lightbulb"></i>
+            <p class="experiencia-titulo">Para tu negocio</p>
+            <p>Venta por mayoreo, ofertas y cupones para que tu emprendimiento tenga el destino que deseas. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Consumo propio</span>
+              <span class="badge text-bg-primary">Compra por mayoreo</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-puzzle"></i>
+            <p class="experiencia-titulo">Artículos</p>
+            <p>Articulos de excelente calidad, buen precio, colores esplendidos para cualquier tipo de evento. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Anillos</span>
+              <span class="badge text-bg-primary">Pulseras</span>
+              <span class="badge text-bg-primary">Collares</span>
+              <span class="badge text-bg-primary">Aretes</span>
+            </div>
+          </div>
+          <!-- Ayuda al cliente -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-info-circle"></i>
+            <p class="experiencia-titulo">Ayuda al cliente</p>
+            <p>Recibiras la ayuda de un asesor. Podrás resolver cualquier duda que tengas acerca de los productos o los envíos.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Envíos</span>
+              <span class="badge text-bg-primary">Problemas con mi mercacia</span>
+              <span class="badge text-bg-primary">Otro</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="recientes" class="agregados-recientemente seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Agregados recientemente</h2>
+      <h3 class="seccion-descripcion">Nueva mercancia</h3>
+      <!-- Galeria de Productos-->
+      <div class="container text-center productos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="producto">
+              <img src="https://i5.walmartimages.com.mx/mg/gm/3pp/asr/cd1048de-32fb-4166-aaeb-856714b6a7ef.4af6671bbfd09953e7866b3fa6c7771a.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Producto 1">
+              <div class="overlay">
+                <p>Producto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.google.com.mx/search?q=anillos&sca_esv=586418917&tbm=isch&sxsrf=AM9HkKn0bMWSFbdLUAGiifNXgnJJdukdxQ:1701293829504&source=lnms&sa=X&ved=2ahUKEwjOw_ayleqCAxVFlGoFHd0GCoQQ_AUoAXoECAMQAw&biw=1318&bih=612&dpr=1#imgrc=6LPH8hcm2Zfg8M" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-bookmark-heart"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="producto">
+              <img src="https://img.kwcdn.com/product/1e13cb9759c/27dba8fb-43ed-450d-b92f-afd2ad145ae9_800x800.jpeg?imageView2/2/w/800/q/70" alt="Producto 2">
+              <div class="overlay">
+                <p>Producto 2</p>
+                <div class="iconos-contenedor">
+                    <a href="https://www.temu.com/mx/moon_subject/n9.html?subj=googleshopping-landingpage&_bg_fs=1&_p_rfs=1&_x_ads_channel=google&_x_ads_sub_channel=shopping&_x_login_type=Google&_x_vst_scene=adg&mkt_rec=1&goods_id=601099513065653&sku_id=17592214264358&_x_ns_sku_id=17592214264358&_x_gmc_account=5054278551&_x_ads_account=8488403749&_x_ads_set=20289056299&_x_ads_id=154099278887&_x_ads_creative_id=662745522681&_x_ns_source=g&_x_ns_gclid=Cj0KCQiA35urBhDCARIsAOU7QwmdRrWsdgoh0mFA9jH4TqHI3ImE5JBIQQmnjrd18zGx4AsfouR84swaAiIaEALw_wcB&_x_ns_placement=&_x_ns_match_type=&_x_ns_ad_position=&_x_ns_product_id=17592214264358&_x_ns_target=&_x_ns_devicemodel=&_x_ns_wbraid=CjkKCQiAvJarBhDfARIoAJ1iuGU1I-TIXicUslVHTYsOw88jCfaYOXni-BK9eqEcOFsRbWmtVRoCfy0&_x_ns_gbraid=0AAAAAo4mICESn68P4Oufzmp2geJtwt45U&_x_ns_targetid=pla-2111073600194&gad_source=1&gclid=Cj0KCQiA35urBhDCARIsAOU7QwmdRrWsdgoh0mFA9jH4TqHI3ImE5JBIQQmnjrd18zGx4AsfouR84swaAiIaEALw_wcB" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-bookmark-heart"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="producto">
+              <img src="https://img.kwcdn.com/product/1dec4a2550/fd375320-f986-445b-94d0-4063a78ad970_1480x1480.jpeg?imageView2/2/w/800/q/70" alt="Producto 3">
+              <div class="overlay">
+                <p>Producto 3</p>
+                <div class="iconos-contenedor">
+                    <a href="https://www.temu.com/mx/moon_subject/n9.html?subj=googleshopping-landingpage&_bg_fs=1&_p_rfs=1&_x_ads_channel=google&_x_ads_sub_channel=shopping&_x_login_type=Google&_x_vst_scene=adg&mkt_rec=1&goods_id=6017592186058409&sku_id=281474976783859&_x_ns_sku_id=281474976783859&_x_gmc_account=5054278551&_x_ads_account=8488403749&_x_ads_set=20289056299&_x_ads_id=154099278887&_x_ads_creative_id=662745522681&_x_ns_source=g&_x_ns_gclid=Cj0KCQiA35urBhDCARIsAOU7QwnV5DaaCFwZ9Rj1HA5ERMY2rlS2Vop7AVbgjQxUSpVeGG5OJP4O5yEaAjEAEALw_wcB&_x_ns_placement=&_x_ns_match_type=&_x_ns_ad_position=&_x_ns_product_id=281474976783859&_x_ns_target=&_x_ns_devicemodel=&_x_ns_wbraid=CjkKCQiAvJarBhDfARIoAJ1iuGU1I-TIXicUslVHTYsOw88jCfaYOXni-BK9eqEcOFsRbWmtVRoCfy0&_x_ns_gbraid=0AAAAAo4mICESn68P4Oufzmp2geJtwt45U&_x_ns_targetid=pla-2111073600194&gad_source=1&gclid=Cj0KCQiA35urBhDCARIsAOU7QwnV5DaaCFwZ9Rj1HA5ERMY2rlS2Vop7AVbgjQxUSpVeGG5OJP4O5yEaAjEAEALw_wcB&adg_ctx=f-8486546b" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-bookmark-heart"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="producto">
+              <img src="https://shoppiland.s3.us-east-1.amazonaws.com/products/oJNrYsiLTQf7SynjV9COfqZhgXmcG1IhO7JdbJjs-md.webp" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Producto 4</p>
+                <div class="iconos-contenedor">
+                    <a href="https://shoppiland.com/mujer/prenda/joyeria-y-bisuteria/aretes-aesthetic-0-66303" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-bookmark-heart"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="producto">
+              <img src="https://media.istockphoto.com/id/896375340/pt/foto/3d-piercing-set-isolated-illustration.jpg?s=170667a&w=0&k=20&c=0SkLEakn7hnXXLQ7lR3ODEcDPtTUEB47BKYRHqUr4nw=" alt="Producto 5">
+              <div class="overlay">
+                <p>Producto 5</p>
+                <div class="iconos-contenedor">
+                    <a href="https://www.istockphoto.com/br/foto/piercing-3d-definir-ilustra%C3%A7%C3%A3o-isolada-gm896375340-247540301" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-bookmark-heart"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="producto">
+              <img src="https://cdn.shopify.com/s/files/1/0504/9316/1656/files/DSC07392_2_1024x1024.jpg?v=1624448611" alt="Producto 6">
+              <div class="overlay">
+                <p>Producto 6</p>
+                <div class="iconos-contenedor">
+                    <a href="https://sprezzi-fashion.com/es/blogs/news/ringe-fur-manner-hochwertiger-schmuck-aus-silber-und-gold" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-bookmark-heart"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="vermas.html" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+            Ver más
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- comentarios -->
+    <section id="comentarios" class="comentarios seccion-clara">    
+      <h2 class="seccion-titulo">Comentarios</h2>
+      <h3 class="seccion-descripcion">Opiniones de los clientes.</h3> 
+      
+      <!-- Carrusel -->
+      <div id="comentarios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="comentarios-imagen rounded-circle" src="https://th.bing.com/th/id/OIP.p3nq2AGjf7Bs1UECZTkOxAHaHa?rs=1&pid=ImgDetMain" alt="Foto de Frankye">
+              <p class="comentarios-texto">Eh comprado 6 veces en la tienda para consumo personal y me ha parecido increible cada vez tengo más cupones.</p>
+              <div class="comentarios">
+                <p class="cliente">Frankye</p>
+                <p class="cargo">Cliente</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+            <img class="comentarios-imagen rounded-circle" src="https://th.bing.com/th/id/R.6f13edb545c55dec6003e7be3aebd872?rik=c%2fBRtlhrsVvgVA&pid=ImgRaw&r=0" alt="Foto de Lola">
+                <p class="comentarios-texto">Excelente calidad con los productos, fueron entregados en tiempo y forma.</p>
+                <div class="comentarios">
+                  <p class="cliente">Lola</p>
+                  <p class="cargo">Cliente</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <img class="comentarios-imagen rounded-circle" src="https://images.vexels.com/media/users/3/154260/isolated/preview/e4834aae1967b716b771b027bfc41510-avatar-de-mascota-gato.png" alt="Foto de Michael">
+                <p class="comentarios-texto">Hace aproximadamente 5 meses abri mi negocio y la gente consume demasiado el producto ya que dicen que son de buena calidad y ademas como vendedor me permite generar ganancias sumamente buenas.</p>
+                <div class="comentarios">
+                  <p class="cliente">Michael</p>
+                  <p class="cargo">Cliente</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#comentarios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#comentarios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Contactanos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contactanos para iniciar tu negocio de cero.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:atencionnegocio@micorreo.com">
+                <button type="button">  
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="https://i.pinimg.com/originals/6e/dc/75/6edc75843dbae8cee1386b6ee36023d3.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">¡No lo pienses más!</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:atencionnegocio@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-facebook"></i>
+          </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Aranza Romero Ruiz (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="final.js"></script>
+
+  </body>
+</html>
